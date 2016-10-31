@@ -44,6 +44,13 @@
                     <lambdaMaximumExecutionTime>${deployment.maximumExecutionTime}</lambdaMaximumExecutionTime>
                     <lambdaMemorySize>${deployment.lambdaMemorySize}</lambdaMemorySize>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.lambadaframework</groupId>
+                        <artifactId>boilerplate</artifactId>
+                        <version>0.0.6</version>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <goals>
